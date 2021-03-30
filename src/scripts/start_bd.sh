@@ -10,6 +10,6 @@ echo "\l" | docker exec -i $SERVER psql -U postgres
 
 echo "========================================"
 echo "please run:"
-echo ">>> npm run typeorm:migration:run"
-echo ">>> npm run start:dev:db:seed-data"
-echo ">>> npm run start:dev";
+echo ">>> yarn typeorm migration:create -n <tableName>"
+echo ">>> yarn typeorm migration:run"
+echo ">>> yarn start:dev";
