@@ -17,6 +17,8 @@
         "@typescript-eslint"
     ],
     "rules": {
-      "comma-dangle": "off"
+      "comma-dangle": "off", 
+      "@typescript-eslint/no-explicit-any": "Off", 
+      "no-useless-constructor": "off"
     }
 }
